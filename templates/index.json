@@ -266,7 +266,7 @@
           "type": "custom-liquid",
           "name": "t:names.custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"text-align: center; padding: 40px 20px; max-width: 900px; margin: 0 auto;\">\n  <h2 style=\"font-size: 28px; margin-bottom: 20px; font-weight: Normal;\">\n    The best quality for the best prices \n  </h2>\n  <p style=\"font-size: 22px; line-height: 2; direction: rtl; font-family: 'Scheherazade', serif;\">\n  </p>\n</div>"
+            "custom_liquid": "<div style=\"text-align: center; padding: 40px 20px; max-width: 900px; margin: 0 auto;\">\n  <h2 style=\"font-size: 28px; margin-bottom: 20px; font-weight: Normal;\">\n    Luxury Bracelets. Accessible Prices \n  </h2>\n  <p style=\"font-size: 22px; line-height: 2; direction: rtl; font-family: 'Scheherazade', serif;\">\n  </p>\n</div>"
           },
           "blocks": {}
         }
@@ -943,6 +943,7 @@
         "image_CJEheH": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/IMG_9024.jpg",
             "link": "",
             "image_ratio": "square",
             "width": "fill",
@@ -1003,7 +1004,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>ALMIGHTY PROTECTING YOU.</h2>",
+                "text": "<h2>Great quality, multiple choices</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1089,58 +1090,6 @@
         "padding-block-start": 40,
         "padding-block-end": 40
       }
-    },
-    "collection_links_kAMQCJ": {
-      "type": "collection-links",
-      "blocks": {
-        "link": {
-          "type": "_collection-link",
-          "static": true,
-          "settings": {
-            "collection": "{{ closest.collection }}",
-            "show_count": true
-          },
-          "blocks": {
-            "title": {
-              "type": "_inline-collection-title",
-              "name": "t:names.title",
-              "static": true,
-              "settings": {
-                "collection": "{{ closest.collection }}",
-                "font": "var(--font-subheading--family)",
-                "weight": "",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none"
-              },
-              "blocks": {}
-            },
-            "image": {
-              "type": "_image",
-              "static": true,
-              "settings": {
-                "image": "{{ closest.collection.image }}",
-                "height": "large",
-                "ratio": "square",
-                "border_radius": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": []
-        }
-      },
-      "name": "t:names.collection_links_spotlight",
-      "settings": {
-        "collection_list": [],
-        "layout": "spotlight",
-        "section_width": "page-width",
-        "alignment": "left",
-        "image_position": "right",
-        "color_scheme": "",
-        "padding-block-start": 40,
-        "padding-block-end": 40
-      }
     }
   },
   "order": [
@@ -1149,7 +1098,6 @@
     "product_list_8MUzfj",
     "product_list_z43Mrp",
     "slideshow_YpyXQ7",
-    "section_rJKXED",
-    "collection_links_kAMQCJ"
+    "section_rJKXED"
   ]
 }
