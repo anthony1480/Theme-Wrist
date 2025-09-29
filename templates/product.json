@@ -337,6 +337,7 @@
         "image_4i4ECL": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/photoo_32of44.jpg",
             "link": "",
             "image_ratio": "square",
             "width": "fill",
@@ -422,7 +423,7 @@
             "text_7CyPFT": {
               "type": "text",
               "settings": {
-                "text": "<p>Built to last.</p><p>Designed to protect</p><p>A symbol of <strong>God's protection, always with you.</strong></p>",
+                "text": "<p>Built to last.</p><p>Designed to stand out</p><p></p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
