@@ -65,6 +65,19 @@
             "padding-inline-end": 0
           },
           "blocks": {
+            "review_rRJqpX": {
+              "type": "review",
+              "name": "t:names.product_review_stars",
+              "settings": {
+                "product": "{{ closest.product }}",
+                "stars_style": "shaded",
+                "show_number": true,
+                "rating_color": "primary",
+                "type_preset": "paragraph",
+                "alignment": "left"
+              },
+              "blocks": {}
+            },
             "group_icgrde": {
               "type": "group",
               "settings": {
@@ -143,6 +156,78 @@
                 "padding-block-end": 0
               },
               "blocks": {}
+            },
+            "variant_picker_gEdbEH": {
+              "type": "variant-picker",
+              "name": "t:names.product_variant_picker",
+              "settings": {
+                "product": "{{ closest.product }}",
+                "variant_style": "buttons",
+                "show_swatches": true,
+                "alignment": "left",
+                "padding-block-start": 0,
+                "padding-block-end": 8,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "swatches_dNFyNA": {
+              "type": "swatches",
+              "name": "t:names.swatches",
+              "settings": {
+                "product": "{{ closest.product }}",
+                "product_swatches_alignment": "flex-start",
+                "product_swatches_alignment_mobile": "flex-start",
+                "hide_padding": false,
+                "product_swatches_padding_top": 4,
+                "product_swatches_padding_bottom": 0,
+                "product_swatches_padding_left": 0,
+                "product_swatches_padding_right": 0
+              },
+              "blocks": {}
+            },
+            "buy_buttons_eYQEYi": {
+              "type": "buy-buttons",
+              "settings": {
+                "product": "{{ closest.product }}",
+                "stacking": true,
+                "show_pickup_availability": false,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "quantity": {
+                  "type": "quantity",
+                  "disabled": true,
+                  "static": true,
+                  "settings": {
+                    "product": "{{ closest.product }}"
+                  },
+                  "blocks": {}
+                },
+                "add-to-cart": {
+                  "type": "add-to-cart",
+                  "static": true,
+                  "settings": {
+                    "product": "{{ closest.product }}",
+                    "style_class": "button"
+                  },
+                  "blocks": {}
+                },
+                "accelerated-checkout": {
+                  "type": "accelerated-checkout",
+                  "disabled": true,
+                  "static": true,
+                  "settings": {
+                    "product": "{{ closest.product }}"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": []
             },
             "accordion_9pMr9H": {
               "type": "accordion",
@@ -280,193 +365,16 @@
                 "accordion_row_rVdYKi",
                 "accordion_row_ipcDcV"
               ]
-            },
-            "buy_buttons_eYQEYi": {
-              "type": "buy-buttons",
-              "settings": {
-                "product": "{{ closest.product }}",
-                "stacking": true,
-                "show_pickup_availability": false,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {
-                "quantity": {
-                  "type": "quantity",
-                  "disabled": true,
-                  "static": true,
-                  "settings": {
-                    "product": "{{ closest.product }}"
-                  },
-                  "blocks": {}
-                },
-                "add-to-cart": {
-                  "type": "add-to-cart",
-                  "static": true,
-                  "settings": {
-                    "product": "{{ closest.product }}",
-                    "style_class": "button"
-                  },
-                  "blocks": {}
-                },
-                "accelerated-checkout": {
-                  "type": "accelerated-checkout",
-                  "disabled": true,
-                  "static": true,
-                  "settings": {
-                    "product": "{{ closest.product }}"
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": []
-            },
-            "accordion_YWD4We": {
-              "type": "accordion",
-              "name": "t:names.accordion",
-              "settings": {
-                "icon": "caret",
-                "dividers": true,
-                "type_preset": "h6",
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {
-                "accordion_row_AfNeii": {
-                  "type": "_accordion-row",
-                  "settings": {
-                    "heading": "Description",
-                    "open_by_default": false
-                  },
-                  "blocks": {
-                    "text_wD86mE": {
-                      "type": "text",
-                      "settings": {
-                        "text": "{{ closest.product.description }}",
-                        "width": "100%",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "color": "var(--color-foreground)",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "text_wD86mE"
-                  ]
-                },
-                "accordion_row_wCeCRn": {
-                  "type": "_accordion-row",
-                  "settings": {
-                    "heading": "Delivery & Returns",
-                    "open_by_default": false
-                  },
-                  "blocks": {
-                    "text_zW6yk9": {
-                      "type": "text",
-                      "settings": {
-                        "text": "<p>Enjoy fast, <strong>FREE</strong> shipping to all GCC countries and shop with confidence knowing you have <strong>30 days</strong> to return your item for a full refund if you’re not satisfied.</p>",
-                        "width": "100%",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "color": "var(--color-foreground)",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "text_zW6yk9"
-                  ]
-                },
-                "accordion_row_EXdkTY": {
-                  "type": "_accordion-row",
-                  "settings": {
-                    "heading": "Material & Durability",
-                    "open_by_default": false
-                  },
-                  "blocks": {
-                    "text_pG8mrc": {
-                      "type": "text",
-                      "settings": {
-                        "text": "<p>Crafted with care, this bracelet is made from high-quality <strong>18K gold plating</strong> for a luxurious look and lasting shine. It’s fully waterproof, designed to withstand everyday wear without tarnishing. Plus, it’s backed by a <strong>30-day money-back guarantee</strong>, so you can try it risk-free!</p>",
-                        "width": "100%",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "color": "var(--color-foreground)",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "text_pG8mrc"
-                  ]
-                }
-              },
-              "block_order": [
-                "accordion_row_AfNeii",
-                "accordion_row_wCeCRn",
-                "accordion_row_EXdkTY"
-              ]
             }
           },
           "block_order": [
+            "review_rRJqpX",
             "group_icgrde",
             "divider_VJhene",
-            "accordion_9pMr9H",
+            "variant_picker_gEdbEH",
+            "swatches_dNFyNA",
             "buy_buttons_eYQEYi",
-            "accordion_YWD4We"
+            "accordion_9pMr9H"
           ]
         }
       },
