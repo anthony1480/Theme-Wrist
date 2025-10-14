@@ -9,6 +9,9 @@
  */
 {
   "current": {
+    "logo": "shopify://shop_images/MAHDII211221.pdf__2_-1-removebg-preview-removebg-preview.png",
+    "logo_inverse": "shopify://shop_images/MAHDII211221.pdf__2_-1-removebg-preview-removebg-preview.png",
+    "favicon": "shopify://shop_images/MAHDII211221.pdf__2_-1-removebg-preview-removebg-preview.png",
     "type_body_font": "inter_n4",
     "type_subheading_font": "inter_n5",
     "type_heading_font": "cormorant_n4",
