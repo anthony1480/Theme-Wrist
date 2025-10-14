@@ -16,7 +16,7 @@
           "type": "_slide",
           "settings": {
             "media_type_1": "image",
-            "image_1": "shopify://shop_images/photoo_37_of_44.jpg",
+            "image_1": "shopify://shop_images/WhatsApp_Image_2025-10-13_at_15.14.33.jpg",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -826,7 +826,7 @@
           "type": "_slide",
           "settings": {
             "media_type_1": "image",
-            "image_1": "shopify://shop_images/photoo_1of10.jpg",
+            "image_1": "shopify://shop_images/WhatsApp_Image_2025-10-13_at_15.14.34_1.jpg",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -943,7 +943,7 @@
         "image_CJEheH": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_9024.jpg",
+            "image": "shopify://shop_images/WhatsApp_Image_2025-10-13_at_15.14.34_2.jpg",
             "link": "",
             "image_ratio": "square",
             "width": "fill",
@@ -1417,8 +1417,9 @@
             "icon_NLYFUD": {
               "type": "icon",
               "settings": {
-                "icon": "eye",
-                "width": 32,
+                "icon": "none",
+                "image_upload": "shopify://shop_images/Icon.webp",
+                "width": 84,
                 "link": "",
                 "open_in_new_tab": false
               },
@@ -1465,7 +1466,7 @@
                 "text_yB8ALU": {
                   "type": "text",
                   "settings": {
-                    "text": "<h2>Eye Catching designs</h2>",
+                    "text": "<h2>Hgih quality materials</h2>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -1486,36 +1487,10 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {}
-                },
-                "text_fBYNiF": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>Everything we do is made to keep you satisfied</p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "center",
-                    "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
                 }
               },
               "block_order": [
-                "text_yB8ALU",
-                "text_fBYNiF"
+                "text_yB8ALU"
               ]
             }
           },
@@ -1565,8 +1540,9 @@
             "icon_Q3TBGq": {
               "type": "icon",
               "settings": {
-                "icon": "heart",
-                "width": 32,
+                "icon": "none",
+                "image_upload": "shopify://shop_images/lifetime_warranty.jpg",
+                "width": 136,
                 "link": "",
                 "open_in_new_tab": false
               },
@@ -1613,7 +1589,7 @@
                 "text_bMdeCA": {
                   "type": "text",
                   "settings": {
-                    "text": "<h2>Made with care</h2>",
+                    "text": "<h2>Lifetime warranty</h2>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -1634,36 +1610,10 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {}
-                },
-                "text_HMNWTm": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>We believe in good quality</p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "center",
-                    "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
                 }
               },
               "block_order": [
-                "text_bMdeCA",
-                "text_HMNWTm"
+                "text_bMdeCA"
               ]
             }
           },
@@ -1713,8 +1663,9 @@
             "icon_rFwHP8": {
               "type": "icon",
               "settings": {
-                "icon": "truck",
-                "width": 32,
+                "icon": "none",
+                "image_upload": "shopify://shop_images/truck_icon_aa546fdd-1f42-4526-9a64-16b8e5f91fbb.jpg",
+                "width": 136,
                 "link": "",
                 "open_in_new_tab": false
               },
@@ -1761,7 +1712,7 @@
                 "text_JzKKz9": {
                   "type": "text",
                   "settings": {
-                    "text": "<h2>Fast & Reliable</h2>",
+                    "text": "<h2>FREE DELIVERY</h2>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -1782,36 +1733,10 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {}
-                },
-                "text_jhFYUD": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>Enjoy Free Fast shipping</p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "center",
-                    "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
                 }
               },
               "block_order": [
-                "text_JzKKz9",
-                "text_jhFYUD"
+                "text_JzKKz9"
               ]
             }
           },
@@ -1828,7 +1753,7 @@
       ],
       "name": "t:names.icons_with_text",
       "settings": {
-        "content_direction": "column",
+        "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
         "vertical_alignment": "center",
