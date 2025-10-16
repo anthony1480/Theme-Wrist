@@ -17,6 +17,7 @@
           "name": "t:names.slide",
           "settings": {
             "media_type_1": "image",
+            "image_1": "shopify://shop_images/WhatsApp_Image_2025-10-13_at_15.14.33_1.jpg",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -78,7 +79,7 @@
                 "text_A4WVQ3": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Introducing our latest products, made especially for the season. Shop your favorites before they're gone!</p>",
+                    "text": "<p>Luxury at it's finest</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
