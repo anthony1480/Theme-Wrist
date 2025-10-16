@@ -877,7 +877,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>The bracelet is made from <strong>high-quality stainless steel</strong>, designed to last without losing its shine.</p>",
+                    "text": "<p>Yes we do trust our quality so much that we offer lifetime warranty, no questions asked</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
