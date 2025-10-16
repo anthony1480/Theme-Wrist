@@ -830,7 +830,7 @@
               "type": "_accordion-row",
               "name": "t:names.accordion_dash_row",
               "settings": {
-                "heading": "How many days it takes to receive my order",
+                "heading": "How are the bracelets packaged?",
                 "open_by_default": false
               },
               "blocks": {
@@ -838,7 +838,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>We deliver all over Kuwait within <strong>2-4 business days</strong>.</p>",
+                    "text": "<p>We have an original packaging that suits gifts, stories and anything you can think of. Very sleek, elegant</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
