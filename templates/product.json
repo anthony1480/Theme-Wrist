@@ -193,7 +193,7 @@
                 "accordion_row_PU7qcj": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "Quality You Can Trust",
+                    "heading": "Description and Details",
                     "open_by_default": true
                   },
                   "blocks": {
@@ -230,7 +230,7 @@
                 "accordion_row_rVdYKi": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "Shipping",
+                    "heading": "Sizing Guide",
                     "open_by_default": false
                   },
                   "blocks": {
@@ -267,7 +267,7 @@
                 "accordion_row_ipcDcV": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "Manufacturing",
+                    "heading": "Shipping Information",
                     "open_by_default": false
                   },
                   "blocks": {
@@ -300,12 +300,51 @@
                   "block_order": [
                     "text_6ME8X4"
                   ]
+                },
+                "accordion_row_HGhQHw": {
+                  "type": "_accordion-row",
+                  "name": "t:names.accordion_row",
+                  "settings": {
+                    "heading": "Life Time Warranty Policy",
+                    "open_by_default": false
+                  },
+                  "blocks": {
+                    "text_xeeY6D": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>We offer lifetime warranty on all of our products as we trust our quality so much.</p>",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_xeeY6D"
+                  ]
                 }
               },
               "block_order": [
                 "accordion_row_PU7qcj",
                 "accordion_row_rVdYKi",
-                "accordion_row_ipcDcV"
+                "accordion_row_ipcDcV",
+                "accordion_row_HGhQHw"
               ]
             }
           },
