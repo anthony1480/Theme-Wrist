@@ -869,7 +869,7 @@
               "type": "_accordion-row",
               "name": "t:names.accordion_dash_row",
               "settings": {
-                "heading": "what is the bracelet made of?",
+                "heading": "Do you offer warranty?",
                 "open_by_default": false
               },
               "blocks": {
