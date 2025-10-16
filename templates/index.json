@@ -104,7 +104,7 @@
                   "type": "button",
                   "settings": {
                     "label": "GET YOURS NOW",
-                    "link": "shopify://collections/all",
+                    "link": "shopify://collections",
                     "open_in_new_tab": false,
                     "style_class": "button",
                     "width": "fit-content",
