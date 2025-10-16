@@ -576,7 +576,7 @@
           "settings": {
             "video": "shopify://files/videos/vd 1 for website .mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "title": "New Slide",
+            "title": "Elegance",
             "stars_count": 5
           }
         },
@@ -585,16 +585,16 @@
           "settings": {
             "video": "shopify://files/videos/vd 3 for website .mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "title": "New Slide",
+            "title": "Luxury",
             "stars_count": 5
           }
         },
         "slide_QcPzBV": {
           "type": "slide",
           "settings": {
-            "video": "shopify://files/videos/vd 1 for website .mp4",
+            "video": "shopify://files/videos/vd 2 for website .mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "title": "New Slide",
+            "title": "For him & Her",
             "stars_count": 5
           }
         },
@@ -603,7 +603,7 @@
           "settings": {
             "video": "shopify://files/videos/vd  5 for website .mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "title": "New Slide",
+            "title": "Aura",
             "stars_count": 5
           }
         }
