@@ -574,6 +574,7 @@
         "slide_rYpT4n": {
           "type": "slide",
           "settings": {
+            "video": "shopify://files/videos/vd 1 for website .mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "title": "New Slide",
             "stars_count": 5
@@ -582,6 +583,7 @@
         "slide_CrY4qH": {
           "type": "slide",
           "settings": {
+            "video": "shopify://files/videos/vd 3 for website .mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "title": "New Slide",
             "stars_count": 5
@@ -590,6 +592,7 @@
         "slide_QcPzBV": {
           "type": "slide",
           "settings": {
+            "video": "shopify://files/videos/vd 1 for website .mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "title": "New Slide",
             "stars_count": 5
@@ -598,14 +601,7 @@
         "slide_hM3PM3": {
           "type": "slide",
           "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "title": "New Slide",
-            "stars_count": 5
-          }
-        },
-        "slide_6kVe9E": {
-          "type": "slide",
-          "settings": {
+            "video": "shopify://files/videos/vd  5 for website .mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "title": "New Slide",
             "stars_count": 5
@@ -616,8 +612,7 @@
         "slide_rYpT4n",
         "slide_CrY4qH",
         "slide_QcPzBV",
-        "slide_hM3PM3",
-        "slide_6kVe9E"
+        "slide_hM3PM3"
       ],
       "name": "SS - Video Slider",
       "settings": {
@@ -709,160 +704,6 @@
         "lazy": true
       }
     },
-    "section_YLAEbn": {
-      "type": "section",
-      "blocks": {
-        "image_4i4ECL": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/photoo_32of44.jpg",
-            "link": "",
-            "image_ratio": "square",
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "group_C9PhAc": {
-          "type": "group",
-          "settings": {
-            "link": "",
-            "open_in_new_tab": false,
-            "content_direction": "column",
-            "vertical_on_mobile": true,
-            "horizontal_alignment": "flex-start",
-            "vertical_alignment": "center",
-            "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "center",
-            "gap": 12,
-            "width": "custom",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "custom_height": 100,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "background_media": "none",
-            "video_position": "cover",
-            "background_image_position": "cover",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "toggle_overlay": false,
-            "overlay_color": "#00000026",
-            "overlay_style": "solid",
-            "gradient_direction": "to top",
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {
-            "text_pTFKCP": {
-              "type": "text",
-              "name": "t:names.heading",
-              "settings": {
-                "text": "<h2>SOLID, PERFECTION, POWER</h2>",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "h3",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "text_7CyPFT": {
-              "type": "text",
-              "settings": {
-                "text": "<p>Built to last.</p><p>Designed to stand out</p><p></p>",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "text_pTFKCP",
-            "text_7CyPFT"
-          ]
-        }
-      },
-      "block_order": [
-        "image_4i4ECL",
-        "group_C9PhAc"
-      ],
-      "name": "t:names.image_with_text",
-      "settings": {
-        "content_direction": "row",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 32,
-        "section_width": "page-width",
-        "section_height": "",
-        "section_height_custom": 50,
-        "color_scheme": "",
-        "background_media": "none",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "padding-block-start": 40,
-        "padding-block-end": 40
-      }
-    },
     "section_WdqfUM": {
       "type": "section",
       "blocks": {
@@ -914,14 +755,14 @@
             "accordion_row_K7t7Wg": {
               "type": "_accordion-row",
               "settings": {
-                "heading": "Can i wear this in the shower?",
+                "heading": "Is it real silver and gold",
                 "open_by_default": false
               },
               "blocks": {
                 "text_RnXhQy": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Yes! That's exactly why we made Nominal - we felt that beautiful jewelry deserves to be worn daily. Because we use only real gold plating and pure hypoallergenic stainless steel, you can wear your piece day in and day out, including in the shower, with no worries about skin sensitivity, jewelry fading, or anything in between. Wear and enjoy.</p><p><em><strong>*Please note, though, that Qur'anic pieces should be tucked away or removed prior to entering the restroom.*</strong></em></p>",
+                    "text": "<p>We use 316L stainless steel with high-quality PVD coating so no rust, no fade, even with water. So you won't see any difference, and what's even better is that we have a Lifetime Warranty on all of our prodiucts</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -951,14 +792,14 @@
             "accordion_row_VKFQGi": {
               "type": "_accordion-row",
               "settings": {
-                "heading": "Do you offer warranty or returns?",
+                "heading": "Can I wear this in the shower or while swimming?",
                 "open_by_default": false
               },
               "blocks": {
                 "text_iJMHUB": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Absolutely. We cover every single piece we sell with a Lifetime Warranty against any rust or tarnish.<br/><br/><strong>For standard jewelry, if you ever experience any fading on your jewelry, just e-mail us a photo and we'll get you taken care of.</strong></p>",
+                    "text": "<p>Yes offcourse you can, it does not rust or even change any colors so you can swim, shower and keep it on anywhere you go.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1110,7 +951,6 @@
     "main",
     "product_recommendations_qggXJq",
     "video_slider_bXYgTk",
-    "section_YLAEbn",
     "section_WdqfUM"
   ]
 }
