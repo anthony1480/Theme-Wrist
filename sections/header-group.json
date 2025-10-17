@@ -31,7 +31,7 @@
           "type": "_announcement",
           "name": "t:names.announcement",
           "settings": {
-            "text": "<strong>30 Day</strong> Money Back Guarantee",
+            "text": "<strong>Lifetime Warranty</strong>",
             "link": "",
             "font": "var(--font-heading--family)",
             "font_size": "0.875rem",
