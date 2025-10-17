@@ -1598,7 +1598,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>We deliver all around Lebanon in 2-5 days maximum so if you just ordered, <strong>we're coming :)</strong></p>",
+                    "text": "<p>We deliver all around Lebanon in 1-4 days maximum so if you just ordered, <strong>we're coming :)</strong></p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
