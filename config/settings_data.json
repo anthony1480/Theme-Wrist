@@ -9,7 +9,7 @@
  */
 {
   "current": {
-    "type_body_font": "cormorant_n4",
+    "type_body_font": "inter_n4",
     "type_subheading_font": "inter_n4",
     "type_heading_font": "cormorant_n4",
     "type_accent_font": "inter_n4",
