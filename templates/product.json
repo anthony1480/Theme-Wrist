@@ -132,7 +132,7 @@
             "buy_buttons_eYQEYi": {
               "type": "buy-buttons",
               "settings": {
-                "product": "{{ closest.product }}",
+                "product": "",
                 "stacking": false,
                 "show_pickup_availability": false,
                 "padding-block-start": 0,
