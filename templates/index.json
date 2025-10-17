@@ -1516,7 +1516,7 @@
               "type": "_accordion-row",
               "settings": {
                 "heading": "What is the return policy?",
-                "open_by_default": false
+                "open_by_default": true
               },
               "blocks": {
                 "text_hP96ap": {
@@ -1526,14 +1526,14 @@
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
-                    "type_preset": "rte",
+                    "type_preset": "h1",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
                     "letter_spacing": "normal",
                     "case": "none",
                     "wrap": "pretty",
-                    "color": "var(--color-foreground)",
+                    "color": "var(--color-foreground-heading)",
                     "background": false,
                     "background_color": "#00000026",
                     "corner_radius": 0,
