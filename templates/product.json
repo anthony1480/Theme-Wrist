@@ -129,12 +129,13 @@
               },
               "blocks": {}
             },
-            "buy_buttons_eYQEYi": {
+            "buy_buttons_bpLHWA": {
               "type": "buy-buttons",
+              "name": "t:names.product_buy_buttons",
               "settings": {
-                "product": "",
+                "product": "boss-chain-bracelet",
                 "stacking": false,
-                "show_pickup_availability": false,
+                "show_pickup_availability": true,
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
@@ -143,7 +144,6 @@
               "blocks": {
                 "quantity": {
                   "type": "quantity",
-                  "disabled": true,
                   "static": true,
                   "settings": {
                     "product": "{{ closest.product }}"
@@ -155,13 +155,12 @@
                   "static": true,
                   "settings": {
                     "product": "{{ closest.product }}",
-                    "style_class": "button"
+                    "style_class": "button-secondary"
                   },
                   "blocks": {}
                 },
                 "accelerated-checkout": {
                   "type": "accelerated-checkout",
-                  "disabled": true,
                   "static": true,
                   "settings": {
                     "product": "{{ closest.product }}"
@@ -315,7 +314,7 @@
             "text_HFYQTP",
             "divider_VJhene",
             "variant_picker_gEdbEH",
-            "buy_buttons_eYQEYi",
+            "buy_buttons_bpLHWA",
             "accordion_9pMr9H"
           ]
         }
