@@ -154,14 +154,6 @@
               },
               "blocks": {}
             },
-            "custom_liquid_afr3UG": {
-              "type": "custom-liquid",
-              "name": "t:names.custom_liquid",
-              "settings": {
-                "custom_liquid": "<div id='ss-size-guide'></div>"
-              },
-              "blocks": {}
-            },
             "buy_buttons_AnwbHQ": {
               "type": "buy-buttons",
               "name": "t:names.product_buy_buttons",
@@ -203,6 +195,14 @@
                 }
               },
               "block_order": []
+            },
+            "custom_liquid_afr3UG": {
+              "type": "custom-liquid",
+              "name": "t:names.custom_liquid",
+              "settings": {
+                "custom_liquid": "<div id='ss-size-guide'></div>"
+              },
+              "blocks": {}
             },
             "accordion_9pMr9H": {
               "type": "accordion",
@@ -349,8 +349,8 @@
             "divider_VJhene",
             "price_DLkGjd",
             "variant_picker_gEdbEH",
-            "custom_liquid_afr3UG",
             "buy_buttons_AnwbHQ",
+            "custom_liquid_afr3UG",
             "accordion_9pMr9H"
           ]
         }
