@@ -201,7 +201,7 @@
               "settings": {
                 "icon": "caret",
                 "dividers": true,
-                "type_preset": "h3",
+                "type_preset": "h2",
                 "inherit_color_scheme": true,
                 "color_scheme": "",
                 "border": "none",
