@@ -331,7 +331,7 @@
         "settings": {
           "background": "#253341",
           "foreground_heading": "#000000",
-          "foreground": "#000000",
+          "foreground": "#ffffff",
           "primary": "#000000",
           "primary_hover": "#00000087",
           "border": "#e6e6e6",
