@@ -114,6 +114,30 @@
               },
               "blocks": {}
             },
+            "price_DLkGjd": {
+              "type": "price",
+              "name": "t:names.product_price",
+              "settings": {
+                "product": "{{ closest.product }}",
+                "show_sale_price_first": true,
+                "show_installments": false,
+                "show_tax_info": false,
+                "type_preset": "custom",
+                "width": "100%",
+                "alignment": "center",
+                "font": "var(--font-heading--family)",
+                "font_size": "1.25rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "color": "var(--color-foreground-heading)",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
             "variant_picker_gEdbEH": {
               "type": "variant-picker",
               "name": "t:names.product_variant_picker",
@@ -314,6 +338,7 @@
             "review_rRJqpX",
             "text_HFYQTP",
             "divider_VJhene",
+            "price_DLkGjd",
             "variant_picker_gEdbEH",
             "buy_buttons_AnwbHQ",
             "accordion_9pMr9H"
