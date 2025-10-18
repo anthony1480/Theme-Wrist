@@ -141,7 +141,6 @@
             "variant_picker_gEdbEH": {
               "type": "variant-picker",
               "name": "t:names.product_variant_picker",
-              "disabled": true,
               "settings": {
                 "product": "{{ closest.product }}",
                 "variant_style": "buttons",
@@ -154,11 +153,11 @@
               },
               "blocks": {}
             },
-            "custom_liquid_nVTjji": {
+            "custom_liquid_QdPVik": {
               "type": "custom-liquid",
               "name": "t:names.custom_liquid",
               "settings": {
-                "custom_liquid": ""
+                "custom_liquid": "<div id='ss-size-guide'></div>"
               },
               "blocks": {}
             },
@@ -349,7 +348,7 @@
             "divider_VJhene",
             "price_DLkGjd",
             "variant_picker_gEdbEH",
-            "custom_liquid_nVTjji",
+            "custom_liquid_QdPVik",
             "buy_buttons_AnwbHQ",
             "accordion_9pMr9H"
           ]
