@@ -153,11 +153,11 @@
               },
               "blocks": {}
             },
-            "custom_liquid_QdPVik": {
+            "custom_liquid_TWEtQB": {
               "type": "custom-liquid",
               "name": "t:names.custom_liquid",
               "settings": {
-                "custom_liquid": "<div id='ss-size-guide'></div>"
+                "custom_liquid": "<div id='ss-size-guide'>"
               },
               "blocks": {}
             },
@@ -348,7 +348,7 @@
             "divider_VJhene",
             "price_DLkGjd",
             "variant_picker_gEdbEH",
-            "custom_liquid_QdPVik",
+            "custom_liquid_TWEtQB",
             "buy_buttons_AnwbHQ",
             "accordion_9pMr9H"
           ]
