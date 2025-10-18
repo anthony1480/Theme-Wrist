@@ -114,6 +114,21 @@
               },
               "blocks": {}
             },
+            "variant_picker_gEdbEH": {
+              "type": "variant-picker",
+              "name": "t:names.product_variant_picker",
+              "settings": {
+                "product": "{{ closest.product }}",
+                "variant_style": "buttons",
+                "show_swatches": true,
+                "alignment": "left",
+                "padding-block-start": 0,
+                "padding-block-end": 8,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
             "buy_buttons_AnwbHQ": {
               "type": "buy-buttons",
               "name": "t:names.product_buy_buttons",
@@ -146,6 +161,7 @@
                 },
                 "accelerated-checkout": {
                   "type": "accelerated-checkout",
+                  "disabled": true,
                   "static": true,
                   "settings": {
                     "product": "{{ closest.product }}"
@@ -154,21 +170,6 @@
                 }
               },
               "block_order": []
-            },
-            "variant_picker_gEdbEH": {
-              "type": "variant-picker",
-              "name": "t:names.product_variant_picker",
-              "settings": {
-                "product": "{{ closest.product }}",
-                "variant_style": "buttons",
-                "show_swatches": true,
-                "alignment": "left",
-                "padding-block-start": 0,
-                "padding-block-end": 8,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
             },
             "accordion_9pMr9H": {
               "type": "accordion",
@@ -313,8 +314,8 @@
             "review_rRJqpX",
             "text_HFYQTP",
             "divider_VJhene",
-            "buy_buttons_AnwbHQ",
             "variant_picker_gEdbEH",
+            "buy_buttons_AnwbHQ",
             "accordion_9pMr9H"
           ]
         }
