@@ -1375,8 +1375,8 @@
             "icon_UJaAjg": {
               "type": "icon",
               "settings": {
-                "icon": "silhouette",
-                "width": 32,
+                "icon": "box",
+                "width": 68,
                 "link": "",
                 "open_in_new_tab": false
               },
@@ -1423,7 +1423,7 @@
                 "text_qhHcFB": {
                   "type": "text",
                   "settings": {
-                    "text": "<h2>A team with a goal</h2>",
+                    "text": "<h2>FREE DELIVERY</h2>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -1448,7 +1448,7 @@
                 "text_mEGian": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Real people making great products</p>",
+                    "text": "<p>We have Free delivery all around Lebanon</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
