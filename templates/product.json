@@ -124,7 +124,7 @@
                 "show_tax_info": false,
                 "type_preset": "custom",
                 "width": "100%",
-                "alignment": "center",
+                "alignment": "left",
                 "font": "var(--font-accent--family)",
                 "font_size": "1.25rem",
                 "line_height": "normal",
