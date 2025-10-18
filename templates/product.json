@@ -125,7 +125,7 @@
                 "type_preset": "custom",
                 "width": "100%",
                 "alignment": "center",
-                "font": "var(--font-heading--family)",
+                "font": "var(--font-accent--family)",
                 "font_size": "1.25rem",
                 "line_height": "normal",
                 "letter_spacing": "normal",
@@ -158,7 +158,7 @@
               "name": "t:names.product_buy_buttons",
               "settings": {
                 "product": "{{  closest.product }}",
-                "stacking": true,
+                "stacking": false,
                 "show_pickup_availability": false,
                 "padding-block-start": 0,
                 "padding-block-end": 0,
