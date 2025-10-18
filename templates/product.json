@@ -153,6 +153,14 @@
               },
               "blocks": {}
             },
+            "custom_liquid_nVTjji": {
+              "type": "custom-liquid",
+              "name": "t:names.custom_liquid",
+              "settings": {
+                "custom_liquid": ""
+              },
+              "blocks": {}
+            },
             "buy_buttons_AnwbHQ": {
               "type": "buy-buttons",
               "name": "t:names.product_buy_buttons",
@@ -340,6 +348,7 @@
             "divider_VJhene",
             "price_DLkGjd",
             "variant_picker_gEdbEH",
+            "custom_liquid_nVTjji",
             "buy_buttons_AnwbHQ",
             "accordion_9pMr9H"
           ]
