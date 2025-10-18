@@ -9,6 +9,7 @@
  */
 {
   "current": {
+    "logo": "shopify://shop_images/IMG_5920.jpg",
     "type_body_font": "cormorant_n4",
     "type_subheading_font": "inter_n4",
     "type_heading_font": "cormorant_n4",
@@ -328,7 +329,7 @@
       },
       "scheme-58084d4c-a86e-4d0a-855e-a0966e5043f7": {
         "settings": {
-          "background": "rgba(0,0,0,0)",
+          "background": "#253341",
           "foreground_heading": "#000000",
           "foreground": "#000000",
           "primary": "#000000",
