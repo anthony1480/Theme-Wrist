@@ -114,28 +114,13 @@
               },
               "blocks": {}
             },
-            "variant_picker_gEdbEH": {
-              "type": "variant-picker",
-              "name": "t:names.product_variant_picker",
-              "settings": {
-                "product": "{{ closest.product }}",
-                "variant_style": "buttons",
-                "show_swatches": true,
-                "alignment": "left",
-                "padding-block-start": 0,
-                "padding-block-end": 8,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "buy_buttons_bpLHWA": {
+            "buy_buttons_AnwbHQ": {
               "type": "buy-buttons",
               "name": "t:names.product_buy_buttons",
               "settings": {
-                "product": "boss-chain-bracelet",
-                "stacking": false,
-                "show_pickup_availability": true,
+                "product": "{{  closest.product }}",
+                "stacking": true,
+                "show_pickup_availability": false,
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
@@ -155,7 +140,7 @@
                   "static": true,
                   "settings": {
                     "product": "{{ closest.product }}",
-                    "style_class": "button-secondary"
+                    "style_class": "button"
                   },
                   "blocks": {}
                 },
@@ -169,6 +154,21 @@
                 }
               },
               "block_order": []
+            },
+            "variant_picker_gEdbEH": {
+              "type": "variant-picker",
+              "name": "t:names.product_variant_picker",
+              "settings": {
+                "product": "{{ closest.product }}",
+                "variant_style": "buttons",
+                "show_swatches": true,
+                "alignment": "left",
+                "padding-block-start": 0,
+                "padding-block-end": 8,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
             },
             "accordion_9pMr9H": {
               "type": "accordion",
@@ -313,8 +313,8 @@
             "review_rRJqpX",
             "text_HFYQTP",
             "divider_VJhene",
+            "buy_buttons_AnwbHQ",
             "variant_picker_gEdbEH",
-            "buy_buttons_bpLHWA",
             "accordion_9pMr9H"
           ]
         }
