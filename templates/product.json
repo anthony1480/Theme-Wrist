@@ -1434,8 +1434,7 @@
           "settings": {
             "tab_title": "Size Guide",
             "tab_text": "<p>This is a detailed size guide of all of our sizes </p>",
-            "size_chart_page": "sizing-chart",
-            "image": "shopify://shop_images/WhatsApp_Image_2025-10-16_at_17.58.06_1.jpg"
+            "size_chart_page": "sizing-chart"
           }
         }
       },
