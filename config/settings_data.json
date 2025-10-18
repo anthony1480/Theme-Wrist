@@ -75,13 +75,13 @@
     "variant_button_width": "equal-width-buttons",
     "content_for_index": [],
     "blocks": {
-      "4275615285897611771": {
-        "type": "shopify://apps/fera/blocks/embed/2fbfcfa7-8a04-479f-89a8-0621fa099c51",
+      "6544682535036668446": {
+        "type": "shopify://apps/pumper-bundles/blocks/app-embed/0856870d-2aca-4b1e-a662-cf1797f61270",
         "disabled": false,
         "settings": {}
       },
-      "6544682535036668446": {
-        "type": "shopify://apps/pumper-bundles/blocks/app-embed/0856870d-2aca-4b1e-a662-cf1797f61270",
+      "1910501027098541543": {
+        "type": "shopify://apps/starapps-variant-image/blocks/starapps-via-embed/2a01d106-3d10-48e8-ba53-5cb971217ac4",
         "disabled": false,
         "settings": {}
       }
