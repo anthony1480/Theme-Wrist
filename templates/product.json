@@ -570,7 +570,7 @@
         "fera_product_customer_media_C3kUdb": {
           "type": "shopify://apps/fera/blocks/product_customer_media/2fbfcfa7-8a04-479f-89a8-0621fa099c51",
           "settings": {
-            "heading": "Customer Photos & Videos",
+            "heading": "",
             "when_no_media": "hide"
           }
         }
