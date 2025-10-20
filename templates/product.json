@@ -199,9 +199,9 @@
               "type": "ai_gen_block_2124d8e",
               "settings": {
                 "heading": "The Offer",
-                "benefit_1": "Buy 1 get 15% OFF",
-                "benefit_2": "Buy 2 get 20% OFF",
-                "benefit_3": "Buy 3 get premium packaging + FREE delivery",
+                "benefit_1": "Buy 2 for 15% OFF",
+                "benefit_2": "Buy 3 get 20% OFF",
+                "benefit_3": "Premium packaging + FREE delivery Included",
                 "container_width": 700,
                 "heading_alignment": "left",
                 "heading_spacing": 10,
