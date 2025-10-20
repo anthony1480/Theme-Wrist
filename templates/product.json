@@ -203,6 +203,14 @@
               },
               "blocks": {}
             },
+            "custom_liquid_kQ8nX3": {
+              "type": "custom-liquid",
+              "name": "t:names.custom_liquid",
+              "settings": {
+                "custom_liquid": "<div id='ss-addons'></div>"
+              },
+              "blocks": {}
+            },
             "accordion_9pMr9H": {
               "type": "accordion",
               "name": "t:names.accordion",
@@ -350,6 +358,7 @@
             "variant_picker_gEdbEH",
             "buy_buttons_AnwbHQ",
             "custom_liquid_afr3UG",
+            "custom_liquid_kQ8nX3",
             "accordion_9pMr9H"
           ]
         }
