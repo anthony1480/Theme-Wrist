@@ -1574,21 +1574,21 @@
         "product_tqhGHc": {
           "type": "product",
           "settings": {
-            "product": "hermes-women-s-bracelet",
+            "product": "boss-chain-bracelet",
             "badge": "Limited Time",
             "link": "Learn More",
-            "badge_bg_color": "#FF9D34",
-            "badge_color": "#FFFFFF"
+            "badge_bg_color": "#ff9d34",
+            "badge_color": "#ffffff"
           }
         },
         "product_FWMMin": {
           "type": "product",
           "settings": {
-            "product": "boss-link-bracelet",
+            "product": "hermes-men-s-bracelet",
             "badge": "Limited Time",
             "link": "Learn More",
-            "badge_bg_color": "#FF9D34",
-            "badge_color": "#FFFFFF"
+            "badge_bg_color": "#ff9d34",
+            "badge_color": "#ffffff"
           }
         }
       },
@@ -1656,19 +1656,19 @@
         "content_bg_color": "#ffffff",
         "product_heading_color": "#000000",
         "product_price_color": "#000000",
-        "badge_bg_color": "#FF9D34",
+        "badge_bg_color": "#ff9d34",
         "badge_color": "#000000",
-        "product_link_color": "#827E6D",
-        "label_bg_color": "#827E6D",
-        "label_active_bg_color": "#FF9D34",
-        "arrow_color": "#827E6D",
-        "arrow_hover_color": "#827E6D",
-        "arrow_bg_color": "#FFFFFF",
-        "arrow_bg_hover_color": "#FFFFFF",
+        "product_link_color": "#827e6d",
+        "label_bg_color": "#827e6d",
+        "label_active_bg_color": "#ff9d34",
+        "arrow_color": "#827e6d",
+        "arrow_hover_color": "#827e6d",
+        "arrow_bg_color": "#ffffff",
+        "arrow_bg_hover_color": "#ffffff",
         "arrow_border_color": "#000000",
         "arrow_border_hover_color": "#000000",
-        "dots_color": "#827E6D",
-        "background_color": "#FFFFFF",
+        "dots_color": "#827e6d",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
