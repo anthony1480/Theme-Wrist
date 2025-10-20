@@ -1,6 +1,298 @@
+{% doc %}
+  @prompt
+    i want 3 icons beside each other showcasing quality, durability and affordability, can we make them all 3 fit by each other side, horizentally not vertically, i would like for the icons to be smaller in size so they could fit on the same row horizentally, perfect, i would just like to change the icons to water resisant, lifetime warranty, tarnish resistant
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-features-{{ ai_gen_id }} {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: {{ block.settings.spacing }}px;
+    padding: {{ block.settings.padding_top }}px 20px {{ block.settings.padding_bottom }}px;
+    background-color: {{ block.settings.background_color }};
+    flex-wrap: wrap;
+  }
+
+  .ai-feature-item-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: {{ block.settings.icon_spacing }}px;
+    flex: 0 1 auto;
+    max-width: 150px;
+  }
+
+  .ai-feature-icon-{{ ai_gen_id }} {
+    width: {{ block.settings.icon_size }}px;
+    height: {{ block.settings.icon_size }}px;
+    flex-shrink: 0;
+    color: {{ block.settings.icon_color }};
+  }
+
+  .ai-feature-icon-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    stroke: currentColor;
+    fill: none;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .ai-feature-content-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ai-feature-title-{{ ai_gen_id }} {
+    font-size: {{ block.settings.title_size }}px;
+    font-weight: 600;
+    color: {{ block.settings.text_color }};
+    margin: 0 0 4px;
+  }
+
+  .ai-feature-description-{{ ai_gen_id }} {
+    font-size: {{ block.settings.description_size }}px;
+    color: {{ block.settings.text_color }};
+    margin: 0;
+    opacity: 0.8;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-features-{{ ai_gen_id }} {
+      gap: {{ block.settings.spacing | times: 0.7 }}px;
+    }
+
+    .ai-feature-item-{{ ai_gen_id }} {
+      max-width: 120px;
+    }
+
+    .ai-feature-icon-{{ ai_gen_id }} {
+      width: {{ block.settings.icon_size | times: 0.8 }}px;
+      height: {{ block.settings.icon_size | times: 0.8 }}px;
+    }
+
+    .ai-feature-title-{{ ai_gen_id }} {
+      font-size: {{ block.settings.title_size | times: 0.9 }}px;
+    }
+
+    .ai-feature-description-{{ ai_gen_id }} {
+      font-size: {{ block.settings.description_size | times: 0.9 }}px;
+    }
+  }
+{% endstyle %}
+
+<div class="ai-features-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-feature-item-{{ ai_gen_id }}">
+    <div class="ai-feature-icon-{{ ai_gen_id }}">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M12 2.69L17 7.19V13.69C17 17.69 14.5 21.19 12 22.19C9.5 21.19 7 17.69 7 13.69V7.19L12 2.69Z"/>
+        <path d="M9 12L11 14L15 10"/>
+      </svg>
+    </div>
+    <div class="ai-feature-content-{{ ai_gen_id }}">
+      <h3 class="ai-feature-title-{{ ai_gen_id }}">{{ block.settings.feature_1_title }}</h3>
+      {% if block.settings.feature_1_description != blank %}
+        <p class="ai-feature-description-{{ ai_gen_id }}">{{ block.settings.feature_1_description }}</p>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="ai-feature-item-{{ ai_gen_id }}">
+    <div class="ai-feature-icon-{{ ai_gen_id }}">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M12 2L2 7L12 12L22 7L12 2Z"/>
+        <path d="M2 17L12 22L22 17"/>
+        <path d="M2 12L12 17L22 12"/>
+      </svg>
+    </div>
+    <div class="ai-feature-content-{{ ai_gen_id }}">
+      <h3 class="ai-feature-title-{{ ai_gen_id }}">{{ block.settings.feature_2_title }}</h3>
+      {% if block.settings.feature_2_description != blank %}
+        <p class="ai-feature-description-{{ ai_gen_id }}">{{ block.settings.feature_2_description }}</p>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="ai-feature-item-{{ ai_gen_id }}">
+    <div class="ai-feature-icon-{{ ai_gen_id }}">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2Z"/>
+        <path d="M21 9H3C2.45 9 2 9.45 2 10V20C2 21.1 2.9 22 4 22H20C21.1 22 22 21.1 22 20V10C22 9.45 21.55 9 21 9Z"/>
+        <path d="M12 6V9"/>
+        <circle cx="12" cy="15" r="2"/>
+      </svg>
+    </div>
+    <div class="ai-feature-content-{{ ai_gen_id }}">
+      <h3 class="ai-feature-title-{{ ai_gen_id }}">{{ block.settings.feature_3_title }}</h3>
+      {% if block.settings.feature_3_description != blank %}
+        <p class="ai-feature-description-{{ ai_gen_id }}">{{ block.settings.feature_3_description }}</p>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Feature icons",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Feature 1"
+    },
+    {
+      "type": "text",
+      "id": "feature_1_title",
+      "label": "Title",
+      "default": "Water Resistant"
+    },
+    {
+      "type": "text",
+      "id": "feature_1_description",
+      "label": "Description",
+      "default": "Protected from water damage"
+    },
+    {
+      "type": "header",
+      "content": "Feature 2"
+    },
+    {
+      "type": "text",
+      "id": "feature_2_title",
+      "label": "Title",
+      "default": "Lifetime Warranty"
+    },
+    {
+      "type": "text",
+      "id": "feature_2_description",
+      "label": "Description",
+      "default": "Guaranteed for life"
+    },
+    {
+      "type": "header",
+      "content": "Feature 3"
+    },
+    {
+      "type": "text",
+      "id": "feature_3_title",
+      "label": "Title",
+      "default": "Tarnish Resistant"
+    },
+    {
+      "type": "text",
+      "id": "feature_3_description",
+      "label": "Description",
+      "default": "Stays shiny and new"
+    },
+    {
+      "type": "header",
+      "content": "Style"
+    },
+    {
+      "type": "range",
+      "id": "icon_size",
+      "min": 20,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "label": "Icon size",
+      "default": 35
+    },
+    {
+      "type": "range",
+      "id": "icon_spacing",
+      "min": 5,
+      "max": 25,
+      "step": 5,
+      "unit": "px",
+      "label": "Icon spacing",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "min": 10,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "label": "Title size",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "description_size",
+      "min": 9,
+      "max": 16,
+      "step": 1,
+      "unit": "px",
+      "label": "Description size",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "spacing",
+      "min": 15,
+      "max": 80,
+      "step": 5,
+      "unit": "px",
+      "label": "Space between items",
+      "default": 40
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "icon_color",
+      "label": "Icon",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Top padding",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Bottom padding",
+      "default": 30
+    }
+  ],
+  "presets": [
+    {
+      "name": "Feature icons"
+    }
+  ]
+}
 {% endschema %}
