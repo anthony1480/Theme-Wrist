@@ -93,6 +93,11 @@
         "type": "shopify://apps/easy-variant-images/blocks/embed_via/bfecabd5-49af-4d37-8214-f0f4649f4cb3",
         "disabled": false,
         "settings": {}
+      },
+      "16178409538858199964": {
+        "type": "shopify://apps/powr-popup/blocks/app-embed/c42eddd7-7bc0-47cc-aa8a-df388049f012",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
