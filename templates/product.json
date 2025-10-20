@@ -195,28 +195,6 @@
               },
               "block_order": []
             },
-            "ai_gen_block_67486d3_qHzNJ3": {
-              "type": "ai_gen_block_67486d3",
-              "settings": {
-                "feature_1_title": "Water Resistant",
-                "feature_1_description": "Protected from water damage",
-                "feature_2_title": "Lifetime Warranty",
-                "feature_2_description": "Guaranteed for life",
-                "feature_3_title": "Tarnish Resistant",
-                "feature_3_description": "Stays shiny and new",
-                "icon_size": 50,
-                "icon_spacing": 5,
-                "title_size": 12,
-                "description_size": 9,
-                "spacing": 15,
-                "background_color": "#ffffff",
-                "icon_color": "#000000",
-                "text_color": "#000000",
-                "padding_top": 30,
-                "padding_bottom": 30
-              },
-              "blocks": {}
-            },
             "custom_liquid_afr3UG": {
               "type": "custom-liquid",
               "name": "t:names.custom_liquid",
@@ -378,6 +356,28 @@
                 "accordion_row_ipcDcV",
                 "accordion_row_HGhQHw"
               ]
+            },
+            "ai_gen_block_67486d3_qHzNJ3": {
+              "type": "ai_gen_block_67486d3",
+              "settings": {
+                "feature_1_title": "Water Resistant",
+                "feature_1_description": "Protected from water damage",
+                "feature_2_title": "Lifetime Warranty",
+                "feature_2_description": "Guaranteed for life",
+                "feature_3_title": "Tarnish Resistant",
+                "feature_3_description": "Stays shiny and new",
+                "icon_size": 50,
+                "icon_spacing": 5,
+                "title_size": 12,
+                "description_size": 9,
+                "spacing": 15,
+                "background_color": "#ffffff",
+                "icon_color": "#000000",
+                "text_color": "#000000",
+                "padding_top": 30,
+                "padding_bottom": 30
+              },
+              "blocks": {}
             }
           },
           "block_order": [
@@ -387,11 +387,11 @@
             "price_DLkGjd",
             "variant_picker_gEdbEH",
             "buy_buttons_AnwbHQ",
-            "ai_gen_block_67486d3_qHzNJ3",
             "custom_liquid_afr3UG",
             "custom_liquid_RVc7nm",
             "custom_liquid_kQ8nX3",
-            "accordion_9pMr9H"
+            "accordion_9pMr9H",
+            "ai_gen_block_67486d3_qHzNJ3"
           ]
         }
       },
