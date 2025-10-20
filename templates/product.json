@@ -207,7 +207,7 @@
               "type": "custom-liquid",
               "name": "t:names.custom_liquid",
               "settings": {
-                "custom_liquid": "<b><p> ✓ Buy 1 for 15% OFF</p>\n<p> ✓ Buy 2 for 20% OFF </p>\n<p> ✓ Buy 3 for premium packaging & FREE DELIVERY</p></b>"
+                "custom_liquid": "<b><p> ✓ Buy 2 for 15% OFF</p>\n<p> ✓ Buy 3+ for 20% OFF </p>\n<p> ✓ Premium packaging & FREE DELIVERY included</p></b>"
               },
               "blocks": {}
             },
