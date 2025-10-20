@@ -195,6 +195,14 @@
               },
               "block_order": []
             },
+            "custom_liquid_RVc7nm": {
+              "type": "custom-liquid",
+              "name": "t:names.custom_liquid",
+              "settings": {
+                "custom_liquid": "<b><p> ✓ Buy 1 for 15% OFF</p>\n<p> ✓ Buy 2 for 20% OFF </p>\n<p> ✓ Buy 3 for premium packaging & FREE DELIVERY</p></b>"
+              },
+              "blocks": {}
+            },
             "custom_liquid_afr3UG": {
               "type": "custom-liquid",
               "name": "t:names.custom_liquid",
@@ -357,6 +365,7 @@
             "price_DLkGjd",
             "variant_picker_gEdbEH",
             "buy_buttons_AnwbHQ",
+            "custom_liquid_RVc7nm",
             "custom_liquid_afr3UG",
             "custom_liquid_kQ8nX3",
             "accordion_9pMr9H"
