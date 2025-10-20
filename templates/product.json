@@ -1557,6 +1557,64 @@
         "border_thickness": 0,
         "lazy": true
       }
+    },
+    "product_addons_4LALkK": {
+      "type": "Product-addons",
+      "blocks": {
+        "product_XkGkX9": {
+          "type": "product",
+          "settings": {
+            "product": "hermes-women-s-bracelet",
+            "image_height": 105,
+            "promo_text": "",
+            "enable_variant_dropdown": false
+          }
+        },
+        "product_c4knqX": {
+          "type": "product",
+          "settings": {
+            "product": "boss-link-bracelet",
+            "image_height": 105,
+            "promo_text": "",
+            "enable_variant_dropdown": false
+          }
+        }
+      },
+      "block_order": [
+        "product_XkGkX9",
+        "product_c4knqX"
+      ],
+      "name": "SS - Upsell 01",
+      "settings": {
+        "html": "<div id=\"mini-atc-target\"></div>",
+        "boxshadow": false,
+        "horizontal_padding": 15,
+        "vertical_padding": 0,
+        "heading": "PAIR IT WITH:",
+        "heading_size": 16,
+        "heading_font_weight": 700,
+        "heading_color": "#000000",
+        "background_color": "#ffffff",
+        "border_radius": 0,
+        "title_size": 16,
+        "title_color": "#000000",
+        "refresh_after_atc": false,
+        "atc_text": "Add",
+        "price_size": 16,
+        "price_color": "#000000",
+        "price_text_color": "#FFF",
+        "atc-border-radius": 0,
+        "promo_size": 16,
+        "promo_color": "#000000",
+        "variant_font_size": 13,
+        "variant_price_text_color": "#000000",
+        "variant_atc-border-radius": 0,
+        "variant_font_family": "montserrat_n4",
+        "soldout": "Sold Out",
+        "soldout_font_size": 14,
+        "soldout_text_color": "#FFFFFF",
+        "soldout_bg_color": "#000000"
+      }
     }
   },
   "order": [
@@ -1566,6 +1624,7 @@
     "video_slider_bXYgTk",
     "section_WdqfUM",
     "section_99XwNM",
-    "ss_size_guide_HVCgG6"
+    "ss_size_guide_HVCgG6",
+    "product_addons_4LALkK"
   ]
 }
