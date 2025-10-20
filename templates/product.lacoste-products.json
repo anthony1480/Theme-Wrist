@@ -1596,6 +1596,7 @@
         "product_tqhGHc",
         "product_FWMMin"
       ],
+      "disabled": true,
       "name": "SS - Product Addons #2",
       "settings": {
         "addons_position": "below_buy",
